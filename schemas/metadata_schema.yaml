@@ -1,0 +1,18 @@
+# metadata_schema.yaml
+fields:
+  - name: filename
+    type: string
+    description: "The name of the file associated with the sample."
+    constraints:
+      required: true
+  # - name: Sample ID
+  #   type: string
+  #   description: "A unique identifier for each sample."
+  #   constraints:
+  #     required: true
+  # - name: Description
+  #   type: string
+  #   description: "A brief description of the sample or experimental conditions."
+  #   constraints:
+  #     required: true
+  # Add additional fields as needed, following the same structure.
